@@ -1,0 +1,33 @@
+.carousel {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+
+  cursor: pointer;
+
+  .carousel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 1rem;
+  }
+
+  .carousel-img {
+    width: 7rem;
+    height: 7rem;
+  
+    border-radius: 50%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel-user-name {
+    font-size: 1.4rem;
+    color: #f14d5cff;
+  }
+}

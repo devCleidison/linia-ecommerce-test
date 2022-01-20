@@ -1,0 +1,18 @@
+footer {
+  width: 100%;
+
+  color: #ffffffff;
+  font-size: 1.4rem;
+  font-weight: 300;
+
+  background-color: #f14d5cff;
+
+  .footer-content {
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 3rem 0;
+  }
+}

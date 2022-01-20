@@ -1,0 +1,43 @@
+.carousel-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 0.5rem;
+
+  position: relative;
+
+  .carousel-banner-text {
+    color: #ffffffff;
+
+    h3 {
+      font-size: 4rem;
+    }
+
+    h1 {
+      font-size: 10rem;
+      line-height: 10rem;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    a {
+      color: #ffffffff;
+      font-size: 1.3rem;
+      padding: 0.5rem 2rem;
+
+      background-color: #f14d5cff;
+      border-radius: 3rem;
+    }
+  }
+  .carousel-banner-img {
+    height: 50rem;
+    width: 45rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

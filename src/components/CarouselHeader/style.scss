@@ -1,0 +1,23 @@
+.header-carousel {
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+
+  cursor: pointer;
+
+  .carousel-img {
+    width: 5.5rem;
+    height: 5.5rem;
+
+    border-radius: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel-user-name {
+    font-size: 1.2rem;
+    color: #f14d5cff;
+  }
+}

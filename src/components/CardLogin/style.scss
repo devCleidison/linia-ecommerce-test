@@ -1,0 +1,161 @@
+.login-container {
+  width: 35rem;
+
+  border-radius: 1rem;
+
+  background-color: #f4f4f4ff;
+
+  position: absolute;
+  right: -14rem;
+  top: -15rem;
+
+  z-index: 10;
+
+  .title-login {
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    text-align: center;
+
+    display: block;
+
+    margin: 2rem 0;
+  }
+
+  form {
+    position: relative;
+  }
+
+  label {
+    width: 80%;
+    margin: auto;
+
+    input {
+      background-color: #f4f4f4ff;
+      font-size: 1.4rem;
+
+      text-align: center;
+
+      color: #918f90ff;
+    }
+    input::placeholder {
+      font-size: 1.4rem;
+    }
+  }
+  .span-error {
+    background-color: #f14d5cff;
+    color: #fff;
+
+    width: 60%;
+
+    font-size: 1.1rem;
+    font-style: italic;
+
+    text-align: center;
+
+    padding: 0.3rem 1.5rem;
+
+    position: relative;
+    left: 50%;
+    top: -1rem;
+
+    transform: translateX(-50%);
+
+    border-radius: 3rem;
+    margin-bottom: -2rem;
+  }
+
+  .span-error::after {
+    content: "";
+
+    background-color: #f14d5cff;
+    width: 1.64rem;
+    height: 1.64rem;
+
+    position: absolute;
+    left: 45%;
+    top: -15%;
+
+    transform: translateX(-50%);
+
+    z-index: -1;
+
+    transform: rotateZ(-45deg);
+  }
+
+  .buttons-login-container {
+    margin: -1rem auto 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+
+    font-size: 1.4rem;
+
+    .btn-login {
+      width: auto;
+      padding: 0.5rem 3rem;
+
+      display: inline-block;
+
+      border-radius: 3rem;
+    }
+    .btn-outline {
+      border: 1px solid #f14d5cff;
+      color: #f14d5cff;
+
+      background-color: #f4f4f4ff;
+
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .login-social {
+    font-size: 1.2rem;
+
+    width: 80%;
+    margin: 2rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 0;
+
+    p {
+      color: #f14d5cff;
+    }
+
+    .buttons-social-container {
+      gap: 0.8rem;
+      .btn-social {
+        i {
+          font-size: 2.8rem;
+          color: #f14d5cff;
+        }
+      }
+    }
+  }
+
+  .create-account {
+    background-color: #f14d5cff;
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 1.5rem;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    a {
+      color: white;
+
+      font-size: 2rem;
+    }
+  }
+}

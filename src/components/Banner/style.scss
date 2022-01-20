@@ -1,0 +1,162 @@
+.banner-container{
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.bg-color-banner{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  background-image: linear-gradient(to right bottom, #f8a21b, #f89b1a, #f79319, #f68c19, #f5841a);
+}
+
+.banner-content{
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  position: relative;
+}
+
+.carousel-banner-container{
+  width: 80%;
+}
+.carousel-banner-content{
+  display: grid;
+  grid-template-columns: repeat(6, 100%);
+
+  overflow-x: auto;
+
+  scroll-behavior: smooth;
+}
+.carousel-banner-content::-webkit-scrollbar{
+  display: none;
+}
+
+.by{
+  position: absolute;
+  margin-top: 1rem;
+
+  font-size: 1.3rem;
+}
+
+
+
+
+
+.mark-carousel-banner{
+  position: absolute;
+
+  margin: 1.5rem auto;
+  
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 1rem;
+}
+.btn-mark-carousel-banner{
+  width: 1.5rem;
+  height: 1.5rem;
+
+  border-radius: 50%;
+  border: 1px solid #f14d5cff;
+}
+.mark-carousel-banner .selected{
+  background-color: #f14d5cff;
+} 
+
+
+
+
+.carousel-card-container{
+  position: absolute;
+  top: 6rem;
+  left: -10%;
+}
+.carousel-card-content{
+  width: 32rem;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 1rem;
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.carousel-card-content::-webkit-scrollbar{
+  display: none;
+}
+
+.btn-close-card{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+
+  color: #ffffff;
+
+  font-size: 2.2rem;
+}
+
+.btn-carousel-card-container{
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  width: 100%;
+}
+
+.btn-carousel-card{
+  padding: .3rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 2.2rem;
+
+  position: absolute;
+
+  background-color: #f14d5cff;
+}
+.btn-carousel-card i{
+  pointer-events: none;
+}
+#btn-card-left{
+  transform: translateX(-50%);
+}
+#btn-card-right{
+  right: 0;
+  transform: translateX(50%);
+}
+
+
+.mark-carousel-card{
+  width: 100%;
+
+  position: absolute;
+  bottom: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mark-card{
+  width: 4.5rem;
+  height: 1rem;
+
+  border-radius: 2rem;
+
+  background-color: #f4f4f4ff;
+}
+.mark-card.selected{
+  background-color: #f14d5cff;
+}
